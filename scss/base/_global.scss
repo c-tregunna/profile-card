@@ -12,7 +12,24 @@ body {
 }
 
 .wrapper {
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
+  @include flex($dir: column, $just: center, $align: center);
+}
+
+.outer-container {
+  position: absolute;
+  height: 60%;
+  width: 90%;
+  border-radius: 10px;
+  background: white;
+  @include flex($dir: column);
   position: relative;
+}
+
+.header {
+  background-image: url("../images/bg-pattern-card.svg");
+  border-radius: 10px 10px 0px 0px;
+  background-size: cover;
+  height: 30%;
 }
