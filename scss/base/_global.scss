@@ -21,6 +21,7 @@ body {
   position: absolute;
   height: 60%;
   width: 90%;
+  max-width: 500px;
   border-radius: 10px;
   background: white;
   @include flex($dir: column);
@@ -31,5 +32,5 @@ body {
   background-image: url("../images/bg-pattern-card.svg");
   border-radius: 10px 10px 0px 0px;
   background-size: cover;
-  height: 30%;
+  height: 35%;
 }

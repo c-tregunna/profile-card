@@ -1,7 +1,9 @@
 .header__image {
-  position: absolute;
   border-radius: 50%;
-  left: 33%;
-  top: 15%;
-  border: solid 4px $white;
+  border: 4px solid $white;
+  &_wrapper {
+    width: 100%;
+    margin: 44px 0px;
+    @include flex($dir: row, $just: center);
+  }
 }
