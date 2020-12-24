@@ -1,6 +1,6 @@
 .profile {
   &__container {
-    margin-top: 65px;
+    margin-top: 64px;
     @include flex($dir: column, $just: center, $align: center);
     color: $dark-blue;
     text-align: center;
