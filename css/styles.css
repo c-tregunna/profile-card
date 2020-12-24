@@ -437,7 +437,7 @@ body {
   height: 380px;
   width: 90%;
   max-width: 300px;
-  border-radius: 20px;
+  border-radius: 18px;
   background: white;
   display: flex;
   flex-direction: column;
